@@ -1,10 +1,21 @@
 # mysqlserver-cookbook
 
-TODO: Enter the cookbook description here.
+This is simple cookbook which installs and configures mysql server using original mysql cookbook.
+
+## Dependencies 
+
+depends 'mysql','~> 6.0'
+depends "mysql2_chef_gem", "~> 1.0.1"
+depends "database", ">= 1.6.0"
+depends 'selinux', '~> 0.7'
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+List of supported platforms.
+
+CentOS 6.5+
+Ubuntu 14+
+AWS Linux
 
 ## Attributes
 
@@ -39,4 +50,4 @@ Include `mysqlserver` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Venkatesh Ainalli (<venkiain@gmail.com>)
