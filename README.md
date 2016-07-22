@@ -2,11 +2,14 @@
 
 This is simple cookbook which installs and configures mysql server using original mysql cookbook.
 
-## Dependencies 
+## Dependencies
 
 depends 'mysql','~> 6.0'
+
 depends "mysql2_chef_gem", "~> 1.0.1"
+
 depends "database", ">= 1.6.0"
+
 depends 'selinux', '~> 0.7'
 
 ## Supported Platforms
@@ -14,7 +17,9 @@ depends 'selinux', '~> 0.7'
 List of supported platforms.
 
 CentOS 6.5+
+
 Ubuntu 14+
+
 AWS Linux
 
 ## Attributes
