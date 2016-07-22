@@ -32,10 +32,34 @@ AWS Linux
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['mysqlserver']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['mysqlserver']['database']['instance_name']</tt></td>
+    <td>String</td>
+    <td>Database instance_name</td>
+    <td><tt>default</tt></td>
+  </tr>
+  <tr>
+    <td><tt>['mysqlserver']['database']['host']</tt></td>
+    <td>String</td>
+    <td>Database host</td>
+    <td><tt>localhost</tt></td>
+  </tr>
+  <tr>
+    <td><tt>['mysqlserver']['database']['port']</tt></td>
+    <td>Integer</td>
+    <td>Database port number</td>
+    <td><tt>3306</tt></td>
+  </tr>
+  <tr>
+    <td><tt>['mysqlserver']['database']['root_password']</tt></td>
+    <td>Password</td>
+    <td>Database Password</td>
+    <td><tt>enterstrongpwd</tt></td>
+  </tr>
+  <tr>
+    <td><tt>['mysqlserver']['database']['mysqlserver_version']</tt></td>
+    <td>String</td>
+    <td>mysql install version</td>
+    <td><tt>5.6</tt></td>
   </tr>
 </table>
 
