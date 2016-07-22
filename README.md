@@ -1,4 +1,1 @@
-# hello-world-
-Hello human's
-Taking baby steps into github.
-Lets explore git togather, lets learn and share
+This is wrapper cookbook for installing mysqlserver using origional mysql cookbook
